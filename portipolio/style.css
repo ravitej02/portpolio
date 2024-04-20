@@ -1,0 +1,130 @@
+body{
+    margin: 3px;
+    color:white;
+    position: relative;
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(17, 192, 137);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding:20px 0;
+    width: 94%;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.logo{
+    padding-left: 22px;
+    font-size: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+.active{
+    color: rgb(195, 21, 88);
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(195, 21, 88);
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+}
+.home-left{
+    width: 100vw;
+    padding-left: 10px;
+}
+
+.hor-row{
+    width: 3px;
+    height: 276px;
+    border:0px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 8px;
+    background: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+.home-left-h1{
+    font-family: bree serif;
+    font-size: 40px;
+}
+.home-left-h2{
+    font-family: bree serif;
+    font-size: 34px;
+}
+span{
+    color:orangered
+}
+.home .home-left a{
+    background-color: beige;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(25, 25, 116);
+    margin:20px 0px;
+    border-radius: 5px;
+}
+.home .home-left a:hover{
+    background-color: rgb(8, 61, 221);
+    box-shadow:0 0 100px rgb(8, 61, 221);
+}
+.home-left-p{
+    font-family: roboto;
+    font-size: 25px;
+}
+.contact .personal-contact a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+    padding:3px;
+    border:1px solid black;
+    border-radius:50%;
+    font-size: 30px;
+    color:black;
+    margin:30px 15px 30px 0px;
+}
+.contact .personal-contact a:hover{
+    background: yellow;
+    color:#081b29;
+    box-shadow: 0 0 20px yellow;
+}
+.contact a{
+    background-color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(116, 25, 78);
+    margin:20px 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.contact{
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 0px;
+    width: 86%;
+    align-items: center;
+}
+.contact{
+    display: none;
+}
+.contact:target{
+    display: block;
+}
